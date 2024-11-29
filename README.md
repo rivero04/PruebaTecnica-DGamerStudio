@@ -19,7 +19,7 @@ Si estás usando una versión más reciente (como `v17` o superior), es posible 
    Para solucionarlo, añade la opción `--openssl-legacy-provider` antes de ejecutar cualquier comando. Por ejemplo:
 
    ```bash
-   NODE_OPTIONS=--openssl-legacy-provider npm start
+  $env:NODE_OPTIONS="--openssl-legacy-provider"
 ```
 **Modo desarrollo:**
 ```bash
