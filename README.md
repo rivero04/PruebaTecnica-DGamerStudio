@@ -11,12 +11,13 @@ Aplicación frontend desarrollada en React que permite realizar operaciones CRUD
 git clone https://github.com/rivero04/PruebaTecnica-DGamerStudio.git
 cd PruebaTecnica-DGamerStudio
 npm install
+code .
 ```
 
 ### **2. Iniciar la aplicación**  
 Si estás usando una versión más reciente (como `v17` o superior), es posible que encuentres el error relacionado con OpenSSL.
 
-   Para solucionarlo, añade la opción `--openssl-legacy-provider` antes de ejecutar cualquier comando. Por ejemplo:
+  Ejecuta esta linea en la terminal de VSCode:
 
    ```bash
   $env:NODE_OPTIONS="--openssl-legacy-provider"
