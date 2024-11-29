@@ -20,6 +20,7 @@ Si estás usando una versión más reciente (como `v17` o superior), es posible 
 
    ```bash
    NODE_OPTIONS=--openssl-legacy-provider npm start
+```
 **Modo desarrollo:**
 ```bash
 npm start
